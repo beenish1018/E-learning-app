@@ -154,11 +154,9 @@ class CourseDetailsScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      // Lectures Tab
                       const Center(
                         child: Text('Lectures content goes here'),
                       ),
-                      // Chats Tab
                       Column(
                         children: [
                           Expanded(
