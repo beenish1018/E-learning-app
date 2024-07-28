@@ -1,0 +1,42 @@
+name: coursera
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'  # Adjusted to a more recent Dart SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_secure_storage: ^9.2.2
+  get: ^4.6.1  # Update to the latest version of GetX
+  http: ^0.13.4  # Update to the latest version of HTTP package
+  provider: ^6.1.2
+  carousel_slider: ^4.2.1
+  video_player: ^2.3.0
+  easy_sidemenu: ^0.6.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0  # Keep the latest version for linting
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image1.png
+    - assets/image2.png
+    - assets/image3.jpg
+    - assets/image4.jpg
+    - assets/image5.jpg
+    - assets/image6.png
+    - assets/image7.png
+    - assets/image8.png
+    - assets/logo.png
+    - assets/webInterFace.png
+    - assets/login.png
+    - assets/loginvector.jpg
+    
